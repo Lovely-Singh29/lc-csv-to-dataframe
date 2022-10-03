@@ -1,0 +1,156 @@
+{
+    "MapID": "MAP0000112",
+    "MapDescription": "This map is used to parse xyz client's csv data",
+    "Mapping": [
+      {
+        "Source": "PATIENT#",
+        "Alias": "PatientNumber",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "MEDICALRECORD#",
+        "Alias": "MedicalRecordNumber",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "IRGD",
+        "Alias": "initRegDate",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "ADMD",
+        "Alias": "admitDate",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "ADTM",
+        "Alias": "admitTime",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "DISD",
+        "Alias": "dischargeDate",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "DSTM",
+        "Alias": "dischargeTime",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "PATT",
+        "Alias": "patientTypeCode",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "PATC",
+        "Alias": "patientClassification",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "LOFS",
+        "Alias": "lengthOfStay",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "ADMT",
+        "Alias": "admitType",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "PCUR",
+        "Alias": "currentPlanId",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "HOSP",
+        "Alias": "hospitalCode",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "PACF",
+        "Alias": "preadmitCancelFlag",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      },
+      {
+        "Source": "PACD",
+        "Alias": "preadmitCancelDate",
+        "Order": "1",
+        "DataType": "",
+        "IsMasked": "",
+        "EncryptionType": "",
+        "MaxLength": "",
+        "Nullable": ""
+      }
+    ]
+  }

@@ -1,0 +1,37 @@
+{
+  "stagename": "enrichlookup",
+  "stageid": "STG006",
+  "stagedescription": "This stage is used to lookup data from given set of files that already part of datalake using predefined query and appends them to the destination dataset",
+  "stageorder": 6,
+  "invoke": true,
+  "intermStorageType": "s3",
+  "sourcepath": "src/main/scala/com/lateralcare/pipeline/stage/enrichlookup/PIPELINE0001/STG006/input/",
+  "destinationpath": "src/main/scala/com/lateralcare/pipeline/stage/enrichlookup/PIPELINE0001/STG006/output/",
+  "lookupfilepath": "src/main/scala/com/lateralcare/pipeline/stage/enrichlookup/PIPELINE0001/STG006/reference/",
+  "lookupspec": {
+    "tool": "sparksql",
+    "lookupfile": {
+      "filename": "datafile-09122022.parquet",
+      "fileformat": "parquet"
+    },
+    "sourcefile": {
+      "filename": "sourcedatafile-09122022.parquet",
+      "fileformat": "parquet"
+    },
+    "destinationfile": {
+      "filename": "destinationdatafile-09122022.parquet",
+      "fileformat": "parquet"
+    },
+    "query": {
+      "select": "*",
+      "join": {
+        "jointype": "inner",
+        "_comment": "jointype is by default `inner`. It must be one of:`inner`, `cross`, `outer`, `full`, `full_outer`, `left`, `left_outer`,`right`, `right_outer`, `left_semi`, `left_ant",
+        "joincondition": {
+          "righttablecolumn": "PATIENT#",
+          "lefttablecolumn": "PatientNumber"
+        }
+      }
+    }
+  }
+}
